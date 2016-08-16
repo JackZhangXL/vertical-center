@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>vertical-centering-flex</title>
+<style type="text/css">
+html { height: 100% }
+
+body {
+	min-height: 100%;
+	margin: 0;
+	background: #fb3;
+	display: flex;
+	align-items: center;
+}
+
+main {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	
+	width: 18em;
+	height: 10em;
+	margin: 0 auto;
+	background: #655;
+	color: white;
+}
+
+p { margin: 0;}
+</style>
+</head>
+
+<body>
+<main>
+	<div>用flex实现</div>
+	<p>垂直居中</p>
+</main>
+</body>
+</html>
